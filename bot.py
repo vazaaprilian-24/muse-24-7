@@ -51,7 +51,7 @@ async def play(ctx):
 
     def repeat(error):
         if loop_enabled:
-            source = discord.FFmpegPCMAudio("song.mp3")
+            source = discord.FFmpegPCMAudio("song.mp3", executable = "ffmpeg")
             source = discord.PCMVolumeTransformer(source, volume=0.5)
             voice_client.play(source, after=repeat)
 
