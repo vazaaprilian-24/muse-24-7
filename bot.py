@@ -109,4 +109,4 @@ async def on_ready():
 
     await bot.change_presence(activity=activity)
 
-bot.run(os.getenv("'MTQ3NjkyNjY0MjkxOTMxMzYyMw.GFvLGP.WKGAp1ajmr-X6oNQBDvKlDt8AIHWe4UXeQkewg'"))
+bot.run(os.getenv('MTQ3NjkyNjY0MjkxOTMxMzYyMw.GFvLGP.WKGAp1ajmr-X6oNQBDvKlDt8AIHWe4UXeQkewg'))
